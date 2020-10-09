@@ -1,29 +1,22 @@
 <template>
 <div>
-    <Topnav />
-
+    <div class="topnav">
+        <div class="logo"></div>
+        <div class="menu"></div>
+    </div>
     <div class="banner">
         <h1>轱辘UI</h1>
-        <h2>一个厉害的UI框架</h2>
+        <h2>一个厉害的 UI 框架</h2>
         <p class="actions">
-            <a href="https://github.com">Github</a>
-            <router-link to="./doc">开始 </router-link>
+            <a>GitHub</a>
+            <a>开始</a>
         </p>
     </div>
 </div>
 </template>
 
-<script lang="ts">
-import Topnav from '../components/Topnav.vue'
-export default {
-    components: {
-        Topnav
-    }
-}
-</script>
-
 <style lang="scss" scoped>
-.topnav {
+.topnar {
     border: 1px solid red;
 }
 </style>
