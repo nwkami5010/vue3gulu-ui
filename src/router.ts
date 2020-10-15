@@ -15,7 +15,7 @@ export const router = createRouter({
     {
       path: "/doc",
       component: Doc,
-      children: [{ path: "switch", component: SwitchDemo }],
+      
       children: [
         { path: "", component: DocDemo },
         { path: "switch", component: SwitchDemo },
