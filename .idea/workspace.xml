@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shims-vue.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shims-vue.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kaP5VRwYFskiGyxY9g2hoTyN2f" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eula" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="" />
+      <created>1605935546109</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605935546109</updated>
+      <workItem from="1605935548800" duration="283000" />
+      <workItem from="1621776730354" duration="971000" />
+      <workItem from="1621783796643" duration="67000" />
+      <workItem from="1621783922958" duration="327000" />
+      <workItem from="1621843909863" duration="890000" />
+      <workItem from="1621848329839" duration="93000" />
+      <workItem from="1621848472146" duration="188000" />
+      <workItem from="1621849573975" duration="9000" />
+      <workItem from="1621849854156" duration="641000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1310" y="383" key="FileChooserDialogImpl" timestamp="1621777924729">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1310" y="383" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1621777924729" />
+  </component>
+</project>
