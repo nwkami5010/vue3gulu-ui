@@ -15,7 +15,6 @@ export const router = createRouter({
     {
       path: "/doc",
       component: Doc,
-      
       children: [
         { path: "", component: DocDemo },
         { path: "switch", component: SwitchDemo },
@@ -24,8 +23,8 @@ export const router = createRouter({
         { path: "tabs", component: TabsDemo },
       ],
     },
-],
+  ],
 });
 router.afterEach(() => {
-console.log("路由切换了");
-}); 
+  console.log("路由切换了");
+});

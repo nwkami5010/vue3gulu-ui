@@ -11,11 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Frank.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Frank2.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DocDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DocDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +44,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -59,7 +69,9 @@
       <workItem from="1621848329839" duration="93000" />
       <workItem from="1621848472146" duration="188000" />
       <workItem from="1621849573975" duration="9000" />
-      <workItem from="1621849854156" duration="2854000" />
+      <workItem from="1621849854156" duration="4007000" />
+      <workItem from="1621936943954" duration="1147000" />
+      <workItem from="1621938109419" duration="8433000" />
     </task>
     <task id="LOCAL-00001" summary="修改了localhost空白的bug">
       <created>1621851080879</created>
@@ -89,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621852473976</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="新建封装了topnav组件">
+      <created>1621852832590</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621852832590</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +129,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="修改了localhost空白的bug" />
     <MESSAGE value="更新了Topnav的样式" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新了Topnav的样式" />
+    <MESSAGE value="新建封装了topnav组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="新建封装了topnav组件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1310" y="383" key="FileChooserDialogImpl" timestamp="1621777924729">
@@ -121,6 +141,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1084" y="420" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621851290047" />
+    <state x="0" y="329" key="SettingsEditor" timestamp="1621942871303">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="329" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1621942871303" />
     <state x="864" y="425" key="Vcs.Push.Dialog.v2" timestamp="1621852514470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -129,5 +153,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1016" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1621851132801" />
+    <state x="995" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1621942868586">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="995" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621942868586" />
   </component>
 </project>
