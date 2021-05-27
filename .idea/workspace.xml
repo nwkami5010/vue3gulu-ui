@@ -11,15 +11,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lib/gulu.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,6 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -62,7 +72,9 @@
       <workItem from="1621849854156" duration="4007000" />
       <workItem from="1621936943954" duration="1147000" />
       <workItem from="1621938109419" duration="12052000" />
-      <workItem from="1621992952337" duration="11335000" />
+      <workItem from="1621992952337" duration="14279000" />
+      <workItem from="1622081998039" duration="1990000" />
+      <workItem from="1622084039358" duration="2461000" />
     </task>
     <task id="LOCAL-00001" summary="修改了localhost空白的bug">
       <created>1621851080879</created>
@@ -127,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622000716635</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="优化代码">
+      <created>1622031149685</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1622031149685</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +172,8 @@
     <MESSAGE value="路由间切换" />
     <MESSAGE value="hover后右滚" />
     <MESSAGE value="点击后切换" />
-    <option name="LAST_COMMIT_MESSAGE" value="点击后切换" />
+    <MESSAGE value="优化代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1310" y="383" key="FileChooserDialogImpl" timestamp="1621777924729">
