@@ -5,7 +5,8 @@
   </button>
 </template>
 <script lang="ts">
-import { computed } from "vue";
+import {computed} from 'vue';
+
 export default {
   props: {
     theme: {
