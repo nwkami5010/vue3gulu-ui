@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/lib/openDialog.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DialogDemo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Dialog.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Dialog.vue" afterDir="false" />
@@ -72,7 +73,10 @@
       <workItem from="1621938109419" duration="12052000" />
       <workItem from="1621992952337" duration="14279000" />
       <workItem from="1622081998039" duration="1990000" />
-      <workItem from="1622084039358" duration="13918000" />
+      <workItem from="1622084039358" duration="17227000" />
+      <workItem from="1622171869689" duration="2267000" />
+      <workItem from="1622269272353" duration="1091000" />
+      <workItem from="1622359251096" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="修改了localhost空白的bug">
       <created>1621851080879</created>
@@ -158,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622127867980</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Dialog支持title和自定义content">
+      <created>1622128907453</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1622128907453</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,7 +198,8 @@
     <MESSAGE value="优化代码" />
     <MESSAGE value="完成button组件" />
     <MESSAGE value="Dialog支持点击关闭" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dialog支持点击关闭" />
+    <MESSAGE value="Dialog支持title和自定义content" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dialog支持title和自定义content" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1310" y="383" key="FileChooserDialogImpl" timestamp="1621777924729">
@@ -202,10 +214,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="329" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1621942871303" />
-    <state x="864" y="425" key="Vcs.Push.Dialog.v2" timestamp="1622088801677">
+    <state x="864" y="425" key="Vcs.Push.Dialog.v2" timestamp="1622128913363">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="864" y="425" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1622088801677" />
+    <state x="864" y="425" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1622128913363" />
     <state x="1016" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621851132801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
