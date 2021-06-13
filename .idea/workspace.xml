@@ -11,10 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lib/Tab.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tab.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tab.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="KEEP" />
   </component>
   <component name="ProjectId" id="1kaP5VRwYFskiGyxY9g2hoTyN2f" />
   <component name="ProjectViewState">
@@ -234,9 +235,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1026" y="368" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622116461386" />
-    <state x="995" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1621942868586">
+    <state x="995" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1623571228139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="995" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1621942868586" />
+    <state x="995" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623571228139" />
   </component>
 </project>
