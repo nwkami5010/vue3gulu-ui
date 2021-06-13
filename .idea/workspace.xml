@@ -13,7 +13,6 @@
     <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Tab.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tab.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622359835674</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="渲染Tabs插槽内容+css">
+      <created>1623573805559</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1623573805559</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +214,8 @@
     <MESSAGE value="Dialog支持点击关闭" />
     <MESSAGE value="Dialog支持title和自定义content" />
     <MESSAGE value="修改了dialog打开方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了dialog打开方式" />
+    <MESSAGE value="渲染Tabs插槽内容+css" />
+    <option name="LAST_COMMIT_MESSAGE" value="渲染Tabs插槽内容+css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1310" y="383" key="FileChooserDialogImpl" timestamp="1621777924729">
