@@ -1,7 +1,7 @@
 <template>
   <div class="gulu-tabs">
     <div class="gulu-tabs-nav" ref="container">
-      <div class="gulu-tabs-nav-item" v-for="(t,index) in titles" :ref="el => { if (t===selected) selectedItem = el }" @click="select(t)" :class="{selected: t=== selected}" :key="index">{{t}}</div>
+      <div class="gulu-tabs-nav-item" v-for="(t,index) in titles" :ref="el => {if(t===selected) selectedItem = el}" @click="select(t)" :class="{selected: t=== selected}" :key="index">{{t}}</div>
       <div class="gulu-tabs-nav-indicator" ref="indicator"></div>
     </div>
     <div class="gulu-tabs-content">
@@ -53,9 +53,9 @@ export default {
     const titles = defaults.map((tag) => {
       return tag.props.title;
     });
-    const current = computed(() => {
+    const current = computed(()=>{
       return defaults.find(tag => tag.props.title === props.selected)
-      });
+    })
 
     const select = (title: string) => {
       context.emit('update:selected', title);

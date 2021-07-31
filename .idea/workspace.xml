@@ -12,8 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabsDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../React-gulu-ui" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
@@ -77,6 +78,9 @@
       <workItem from="1622171869689" duration="2267000" />
       <workItem from="1622269272353" duration="1091000" />
       <workItem from="1622359251096" duration="2476000" />
+      <workItem from="1623740448363" duration="911000" />
+      <workItem from="1627647232497" duration="1464000" />
+      <workItem from="1627701384611" duration="1710000" />
     </task>
     <task id="LOCAL-00001" summary="修改了localhost空白的bug">
       <created>1621851080879</created>
@@ -183,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623573805559</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="实现下划线滑动+优化代码">
+      <created>1623579165796</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1623579165796</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,13 +226,14 @@
     <MESSAGE value="Dialog支持title和自定义content" />
     <MESSAGE value="修改了dialog打开方式" />
     <MESSAGE value="渲染Tabs插槽内容+css" />
-    <option name="LAST_COMMIT_MESSAGE" value="渲染Tabs插槽内容+css" />
+    <MESSAGE value="实现下划线滑动+优化代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现下划线滑动+优化代码" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1310" y="383" key="FileChooserDialogImpl" timestamp="1621777924729">
+    <state x="1310" y="383" key="FileChooserDialogImpl" timestamp="1623740832594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1310" y="383" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1621777924729" />
+    <state x="1310" y="383" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623740832594" />
     <state x="1084" y="420" key="Github.ShareDialog" timestamp="1621851290047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
