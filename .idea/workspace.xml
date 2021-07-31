@@ -10,7 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="" />
+    <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +79,7 @@
       <workItem from="1622359251096" duration="2476000" />
       <workItem from="1623740448363" duration="911000" />
       <workItem from="1627647232497" duration="1464000" />
-      <workItem from="1627701384611" duration="2729000" />
+      <workItem from="1627701384611" duration="3060000" />
     </task>
     <task id="LOCAL-00001" summary="修改了localhost空白的bug">
       <created>1621851080879</created>
@@ -211,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627720944555</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="实现圆弧">
+      <created>1627721040853</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1627721040853</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +257,9 @@
     <MESSAGE value="背景渐变" />
     <MESSAGE value="从 iconfont.cn 引入图标" />
     <MESSAGE value="使用本地的 svg.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用本地的 svg.js" />
+    <MESSAGE value="实现圆弧" />
+    <MESSAGE value="features 样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="features 样式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1310" y="383" key="FileChooserDialogImpl" timestamp="1623740832594">
