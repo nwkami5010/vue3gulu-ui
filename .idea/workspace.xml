@@ -12,8 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +81,7 @@
       <workItem from="1622359251096" duration="2476000" />
       <workItem from="1623740448363" duration="911000" />
       <workItem from="1627647232497" duration="1464000" />
-      <workItem from="1627701384611" duration="1710000" />
+      <workItem from="1627701384611" duration="2402000" />
     </task>
     <task id="LOCAL-00001" summary="修改了localhost空白的bug">
       <created>1621851080879</created>
@@ -194,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623579165796</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="背景渐变">
+      <created>1627720135456</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1627720135456</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +235,8 @@
     <MESSAGE value="修改了dialog打开方式" />
     <MESSAGE value="渲染Tabs插槽内容+css" />
     <MESSAGE value="实现下划线滑动+优化代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现下划线滑动+优化代码" />
+    <MESSAGE value="背景渐变" />
+    <option name="LAST_COMMIT_MESSAGE" value="背景渐变" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1310" y="383" key="FileChooserDialogImpl" timestamp="1623740832594">
