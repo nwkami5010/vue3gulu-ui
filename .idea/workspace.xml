@@ -10,9 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
-    </list>
+    <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +78,7 @@
       <workItem from="1623740448363" duration="911000" />
       <workItem from="1627647232497" duration="1464000" />
       <workItem from="1627701384611" duration="4474000" />
+      <workItem from="1627824627792" duration="307000" />
     </task>
     <task id="LOCAL-00001" summary="修改了localhost空白的bug">
       <created>1621851080879</created>
@@ -263,7 +262,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627822674875</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="更新 SwitchDemo">
+      <created>1627824757083</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1627824757083</updated>
+    </task>
+    <task id="LOCAL-00028" summary="抽离用户需要拷贝的代码">
+      <created>1627824920742</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1627824920742</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,7 +295,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改了localhost空白的bug" />
     <MESSAGE value="更新了Topnav的样式" />
     <MESSAGE value="新建封装了topnav组件" />
     <MESSAGE value="实现了aside的逻辑" />
@@ -306,7 +318,9 @@
     <MESSAGE value="引入 github 样式" />
     <MESSAGE value="支持markdown文件" />
     <MESSAGE value="优化markdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化markdown" />
+    <MESSAGE value="更新 SwitchDemo" />
+    <MESSAGE value="抽离用户需要拷贝的代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="抽离用户需要拷贝的代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="915" y="517" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627821711881">
