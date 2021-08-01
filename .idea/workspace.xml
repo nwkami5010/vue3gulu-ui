@@ -11,8 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SwitchDemo.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <workItem from="1623740448363" duration="911000" />
       <workItem from="1627647232497" duration="1464000" />
       <workItem from="1627701384611" duration="4474000" />
-      <workItem from="1627824627792" duration="610000" />
+      <workItem from="1627824627792" duration="918000" />
     </task>
     <task id="LOCAL-00001" summary="修改了localhost空白的bug">
       <created>1621851080879</created>
@@ -286,7 +285,28 @@
       <option name="project" value="LOCAL" />
       <updated>1627825156822</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="展示源代码并且高亮">
+      <created>1627825317537</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1627825317537</updated>
+    </task>
+    <task id="LOCAL-00031" summary="显示 demo 标题">
+      <created>1627825450621</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1627825450621</updated>
+    </task>
+    <task id="LOCAL-00032" summary="优化 Demo">
+      <created>1627825491026</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1627825491026</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,10 +325,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="新建封装了topnav组件" />
-    <MESSAGE value="实现了aside的逻辑" />
-    <MESSAGE value="路由间切换" />
-    <MESSAGE value="hover后右滚" />
     <MESSAGE value="点击后切换" />
     <MESSAGE value="优化代码" />
     <MESSAGE value="完成button组件" />
@@ -330,7 +346,11 @@
     <MESSAGE value="更新 SwitchDemo" />
     <MESSAGE value="抽离用户需要拷贝的代码" />
     <MESSAGE value="小优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="小优化" />
+    <MESSAGE value="展示源代码并且高亮" />
+    <MESSAGE value="显示 demo 标题" />
+    <MESSAGE value="优化 Demo" />
+    <MESSAGE value="删掉无用代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="删掉无用代码" />
   </component>
   <component name="WindowStateProjectService">
     <state x="915" y="517" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627821711881">
