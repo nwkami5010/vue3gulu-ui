@@ -80,7 +80,7 @@
       <workItem from="1627701384611" duration="4474000" />
       <workItem from="1627824627792" duration="2140000" />
       <workItem from="1627868179603" duration="116000" />
-      <workItem from="1627868303452" duration="2156000" />
+      <workItem from="1627868303452" duration="2493000" />
     </task>
     <task id="LOCAL-00001" summary="修改了localhost空白的bug">
       <created>1621851080879</created>
@@ -348,7 +348,35 @@
       <option name="project" value="LOCAL" />
       <updated>1627893403845</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="忽略 dist 目录">
+      <created>1627893467203</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1627893467203</updated>
+    </task>
+    <task id="LOCAL-00040" summary="修改vite配置">
+      <created>1627893577551</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1627893577551</updated>
+    </task>
+    <task id="LOCAL-00041" summary="添加一键部署脚本">
+      <created>1627893624057</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1627893624057</updated>
+    </task>
+    <task id="LOCAL-00042" summary="修复生产环境 tag.type 不等于 Tab 的问题">
+      <created>1627893719908</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1627893719908</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,9 +395,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改了dialog打开方式" />
-    <MESSAGE value="渲染Tabs插槽内容+css" />
-    <MESSAGE value="实现下划线滑动+优化代码" />
     <MESSAGE value="背景渐变" />
     <MESSAGE value="从 iconfont.cn 引入图标" />
     <MESSAGE value="使用本地的 svg.js" />
@@ -392,7 +417,10 @@
     <MESSAGE value="优化官网，并将 topnav 的 z-index 调成 20" />
     <MESSAGE value="改回到静态引入" />
     <MESSAGE value="忽略 dist 目录" />
-    <option name="LAST_COMMIT_MESSAGE" value="忽略 dist 目录" />
+    <MESSAGE value="修改vite配置" />
+    <MESSAGE value="添加一键部署脚本" />
+    <MESSAGE value="修复生产环境 tag.type 不等于 Tab 的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复生产环境 tag.type 不等于 Tab 的问题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="915" y="517" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627821711881">
