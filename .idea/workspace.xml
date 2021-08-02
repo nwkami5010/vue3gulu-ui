@@ -10,11 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="" />
     <list id="30e339d1-4a0d-42ad-8aee-e7c235d9923f" name="Revert &quot;重构deploysh，上传github仓库&quot;" comment="Revert &quot;重构deploysh，上传github仓库&quot;&#10;&#10;This reverts commit ae6229e2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="KEEP" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1kaP5VRwYFskiGyxY9g2hoTyN2f" />
   <component name="ProjectViewState">
@@ -402,7 +399,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627893973663</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="rollup部署出错前一步">
+      <created>1627913868754</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1627913868754</updated>
+    </task>
+    <task id="LOCAL-00047" summary="rollup部署出错">
+      <created>1627914070490</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1627914070490</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +432,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="features 样式" />
     <MESSAGE value="更新切换按钮的样式" />
     <MESSAGE value="填充文档内容" />
     <MESSAGE value="引入 github 样式" />
@@ -446,7 +456,8 @@
     <MESSAGE value="创建 lib/index.ts" />
     <MESSAGE value="移动 svg.js" />
     <MESSAGE value="rollup部署出错前一步" />
-    <option name="LAST_COMMIT_MESSAGE" value="rollup部署出错前一步" />
+    <MESSAGE value="rollup部署出错" />
+    <option name="LAST_COMMIT_MESSAGE" value="rollup部署出错" />
   </component>
   <component name="WindowStateProjectService">
     <state x="915" y="517" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627821711881">
@@ -481,14 +492,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1119" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627913773620" />
+    <state x="800" y="296" key="MultipleFileMergeDialog" timestamp="1627914220437">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="800" y="296" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627914220437" />
     <state x="0" y="329" key="SettingsEditor" timestamp="1621942871303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="329" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1621942871303" />
-    <state x="864" y="425" key="Vcs.Push.Dialog.v2" timestamp="1622128913363">
+    <state x="864" y="425" key="Vcs.Push.Dialog.v2" timestamp="1627914197863">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="864" y="425" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1622128913363" />
+    <state x="864" y="425" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1627914197863" />
     <state x="1016" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621851132801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
