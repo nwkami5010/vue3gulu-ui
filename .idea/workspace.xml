@@ -12,9 +12,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/rollup.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
+    <list id="30e339d1-4a0d-42ad-8aee-e7c235d9923f" name="Revert &quot;重构deploysh，上传github仓库&quot;" comment="Revert &quot;重构deploysh，上传github仓库&quot;&#10;&#10;This reverts commit ae6229e2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,9 +25,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
+        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -420,7 +421,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="实现圆弧" />
     <MESSAGE value="features 样式" />
     <MESSAGE value="更新切换按钮的样式" />
     <MESSAGE value="填充文档内容" />
@@ -445,7 +445,8 @@
     <MESSAGE value="展示或隐藏代码" />
     <MESSAGE value="创建 lib/index.ts" />
     <MESSAGE value="移动 svg.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="移动 svg.js" />
+    <MESSAGE value="rollup部署出错前一步" />
+    <option name="LAST_COMMIT_MESSAGE" value="rollup部署出错前一步" />
   </component>
   <component name="WindowStateProjectService">
     <state x="915" y="517" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627821711881">
@@ -464,6 +465,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1084" y="420" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621851290047" />
+    <state width="1119" height="279" key="GridCell.Tab.0.bottom" timestamp="1627913773620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1119" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627913773620" />
+    <state width="1119" height="279" key="GridCell.Tab.0.center" timestamp="1627913773620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1119" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627913773620" />
+    <state width="1119" height="279" key="GridCell.Tab.0.left" timestamp="1627913773620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1119" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627913773620" />
+    <state width="1119" height="279" key="GridCell.Tab.0.right" timestamp="1627913773620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1119" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627913773620" />
     <state x="0" y="329" key="SettingsEditor" timestamp="1621942871303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -476,10 +493,6 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1016" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1621851132801" />
-    <state x="953" y="117" width="912" height="946" key="dock-window-1" timestamp="1627912512116">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="953" y="117" width="912" height="946" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1627912512116" />
     <state x="1026" y="368" key="run.anything.popup" timestamp="1627822004132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
