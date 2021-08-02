@@ -1818,10 +1818,10 @@ safe-buffer@5.1.2:
   resolved "https://registry.npm.taobao.org/safe-buffer/download/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha1-mR7GnSluAxN0fVm9/St0XDX4go0=
 
-sass@^1.37.0:
-  version "1.37.0"
-  resolved "https://registry.nlark.com/sass/download/sass-1.37.0.tgz?cache=0&sync_timestamp=1627689703649&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsass%2Fdownload%2Fsass-1.37.0.tgz#f1b03a9d072ee9053a29d125c8130c78e92827c2"
-  integrity sha1-8bA6nQcu6QU6KdElyBMMeOkoJ8I=
+sass@1.33.0:
+  version "1.33.0"
+  resolved "https://registry.nlark.com/sass/download/sass-1.33.0.tgz?cache=0&sync_timestamp=1627689703649&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsass%2Fdownload%2Fsass-1.33.0.tgz#a26186902ee56585b9db6751fd151237f561dbc2"
+  integrity sha1-omGGkC7lZYW522dR/RUSN/Vh28I=
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
 
