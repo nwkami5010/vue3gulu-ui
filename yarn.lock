@@ -1475,6 +1475,11 @@ object-assign@^4.0.1:
   resolved "https://registry.npm.taobao.org/object-assign/download/object-assign-4.1.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fobject-assign%2Fdownload%2Fobject-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
 
+ometa@0.2.2:
+  version "0.2.2"
+  resolved "https://registry.nlark.com/ometa/download/ometa-0.2.2.tgz#f53c4735ba6d56af5a46b04dfb7c4334c596d44e"
+  integrity sha1-9TxHNbptVq9aRrBN+3xDNMWW1E4=
+
 on-finished@^2.3.0:
   version "2.3.0"
   resolved "https://registry.npm.taobao.org/on-finished/download/on-finished-2.3.0.tgz#20f1336481b083cd75337992a16971aa2d906947"
@@ -1819,6 +1824,13 @@ sass@^1.37.0:
   integrity sha1-8bA6nQcu6QU6KdElyBMMeOkoJ8I=
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
+
+scss@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.nlark.com/scss/download/scss-0.2.4.tgz#040d903ed37c5d4fa4ad33ae1fd389ac12a4e065"
+  integrity sha1-BA2QPtN8XU+krTOuH9OJrBKk4GU=
+  dependencies:
+    ometa "0.2.2"
 
 selfsigned@^1.10.7:
   version "1.10.7"

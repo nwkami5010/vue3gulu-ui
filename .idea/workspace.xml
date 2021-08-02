@@ -11,11 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/DocDemo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Markdown.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Markdown.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,9 @@
       <workItem from="1623740448363" duration="911000" />
       <workItem from="1627647232497" duration="1464000" />
       <workItem from="1627701384611" duration="4474000" />
-      <workItem from="1627824627792" duration="1526000" />
+      <workItem from="1627824627792" duration="2140000" />
+      <workItem from="1627868179603" duration="116000" />
+      <workItem from="1627868303452" duration="1837000" />
     </task>
     <task id="LOCAL-00001" summary="修改了localhost空白的bug">
       <created>1621851080879</created>
@@ -331,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627825988306</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="优化官网，并将 topnav 的 z-index 调成 20">
+      <created>1627826170886</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1627826170886</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +358,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完成button组件" />
     <MESSAGE value="Dialog支持点击关闭" />
     <MESSAGE value="Dialog支持title和自定义content" />
     <MESSAGE value="修改了dialog打开方式" />
@@ -375,13 +382,18 @@
     <MESSAGE value="删掉无用代码" />
     <MESSAGE value="改造 Button Demo" />
     <MESSAGE value="改造 Dialogdemo和Tabs.demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="改造 Dialogdemo和Tabs.demo" />
+    <MESSAGE value="优化官网，并将 topnav 的 z-index 调成 20" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化官网，并将 topnav 的 z-index 调成 20" />
   </component>
   <component name="WindowStateProjectService">
     <state x="915" y="517" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627821711881">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="915" y="517" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1627821711881" />
+    <state x="949" y="391" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627826005000">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="949" y="391" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627826005000" />
     <state x="1310" y="383" key="FileChooserDialogImpl" timestamp="1627722157119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
