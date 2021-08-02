@@ -10,12 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Markdown.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Markdown.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,7 +80,7 @@
       <workItem from="1627701384611" duration="4474000" />
       <workItem from="1627824627792" duration="2140000" />
       <workItem from="1627868179603" duration="116000" />
-      <workItem from="1627868303452" duration="1837000" />
+      <workItem from="1627868303452" duration="2156000" />
     </task>
     <task id="LOCAL-00001" summary="修改了localhost空白的bug">
       <created>1621851080879</created>
@@ -339,7 +334,21 @@
       <option name="project" value="LOCAL" />
       <updated>1627826170886</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="改回到静态引入">
+      <created>1627893319444</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1627893319444</updated>
+    </task>
+    <task id="LOCAL-00038" summary="忽略 dist 目录">
+      <created>1627893403845</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1627893403845</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,8 +367,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dialog支持点击关闭" />
-    <MESSAGE value="Dialog支持title和自定义content" />
     <MESSAGE value="修改了dialog打开方式" />
     <MESSAGE value="渲染Tabs插槽内容+css" />
     <MESSAGE value="实现下划线滑动+优化代码" />
@@ -383,7 +390,9 @@
     <MESSAGE value="改造 Button Demo" />
     <MESSAGE value="改造 Dialogdemo和Tabs.demo" />
     <MESSAGE value="优化官网，并将 topnav 的 z-index 调成 20" />
-    <option name="LAST_COMMIT_MESSAGE" value="优化官网，并将 topnav 的 z-index 调成 20" />
+    <MESSAGE value="改回到静态引入" />
+    <MESSAGE value="忽略 dist 目录" />
+    <option name="LAST_COMMIT_MESSAGE" value="忽略 dist 目录" />
   </component>
   <component name="WindowStateProjectService">
     <state x="915" y="517" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627821711881">
