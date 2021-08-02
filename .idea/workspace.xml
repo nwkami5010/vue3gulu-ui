@@ -21,8 +21,8 @@
       <list>
         <option value="SCSS File" />
         <option value="JavaScript File" />
-        <option value="TypeScript File" />
         <option value="Vue Single File Component" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
