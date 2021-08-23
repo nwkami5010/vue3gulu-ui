@@ -1,33 +1,56 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-ul,
-ol {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-  color: inherit;
-  &:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-}
-h1,h2,h3,h4,h5,h6{
-  font-weight: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+* {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    &:hover {
+        border-bottom: 1px solid ;
+        cursor: pointer;
+    }
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+  }
+button {
+    text-transform: none;
+}
+button,input {
+    overflow: visible;
+}
+a, area, button, label, select, summary, textarea {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
 body {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #1d2c40;
-  // 为什么这样写 font-family
-  // 答案见 https://github.com/zenozeng/fonts.css/
-  font-family: -apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
-}.icon {
-   width: 1em; height: 1em;
-   vertical-align: -0.15em;
-   fill: currentColor;
-   overflow: hidden;}
+    font-size: 16px;
+    line-height: 1.5;
+    color: #1d2c40;
+     font-family: -apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+     overflow: hidden;
+}
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  } 
+
