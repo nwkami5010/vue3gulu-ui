@@ -5,7 +5,7 @@
 </template>
 <script lang="ts">
 export default {
-  name: "KaiteTab",
+  name: "kianaTab",
   props: {
     disabled: {
       type: Boolean,

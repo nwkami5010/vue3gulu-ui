@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper" :class="{ error: error }">
     <input
-      id="kaite"
+      id="kiana"
       :value="value || value == '' ? value : modelValue"
       type="text"
       :disabled="disabled"
@@ -20,7 +20,7 @@
 <script lang="ts">
 import { readonly, reactive } from "vue";
 export default {
-  name: "kaite-input",
+  name: "kiana-input",
   props: {
     value: {
       type: String,

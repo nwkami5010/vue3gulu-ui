@@ -1,10 +1,10 @@
 <template>
   <button
-    class="kaite-button"
+    class="kiana-button"
     :class="classes"
     :disabled="loading ? true : disabled"
   >
-    <span v-if="loading" class="kaite-loadingIndicator"></span>
+    <span v-if="loading" class="kiana-loadingIndicator"></span>
     <slot />
   </button>
 </template>
@@ -39,9 +39,9 @@ export default {
     const { round, size, level } = props;
     const classes = computed(() => {
       return {
-        [`kaite-size-${size}`]: size,
-        [`kaite-level-${level}`]: level,
-        [`kaite-${round ? "round" : "normal"}`]: round,
+        [`kiana-size-${size}`]: size,
+        [`kiana-level-${level}`]: level,
+        [`kiana-${round ? "round" : "normal"}`]: round,
       };
     });
 
@@ -64,7 +64,7 @@ $red: #f56c6c;
 $radius: 4px;
 $roundRadius: 32px;
 $grey: #909399;
-.kaite-button {
+.kiana-button {
   box-sizing: border-box;
   height: $h;
   padding: 0 12px;
@@ -101,42 +101,42 @@ $grey: #909399;
   &::-moz-focus-inner {
     border: 0;
   }
-  &.kaite-round {
+  &.kiana-round {
     border-radius: $roundRadius;
   }
 
-  &.kaite-size-big {
+  &.kiana-size-big {
     font-size: 24px;
     height: 48px;
     padding: 0 16px;
   }
-  &.kaite-size-small {
+  &.kiana-size-small {
     font-size: 12px;
     height: 20px;
     padding: 0 4px;
   }
-  &.kaite-level-primary {
+  &.kiana-level-primary {
     color: #fff;
     border: none;
     background-color: #1976d2;
   }
-  &.kaite-level-success {
+  &.kiana-level-success {
     color: #fff;
     border: none;
     background-color: #13ce66;
   }
-  &.kaite-level-warning {
+  &.kiana-level-warning {
     color: #fff;
     border: none;
     background-color: #ffc107;
   }
-  &.kaite-level-error {
+  &.kiana-level-error {
     color: #fff;
     border: none;
     background-color: #ff4f57;
   }
 
-  &.kaite-level-primary {
+  &.kiana-level-primary {
     color: #fff;
     border: none;
     background-color: #1976d2;
@@ -149,7 +149,7 @@ $grey: #909399;
     border: none;
   }
 
-  > .kaite-loadingIndicator {
+  > .kiana-loadingIndicator {
     width: 14px;
     height: 14px;
     display: inline-block;
@@ -160,7 +160,7 @@ $grey: #909399;
     border-width: 2px;
     animation: kaite-spin 1s infinite linear;
   }
-  @keyframes kaite-spin {
+  @keyframes kiana-spin {
     0% {
       transform: rotate(0deg);
     }

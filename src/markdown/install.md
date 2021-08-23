@@ -3,13 +3,13 @@
 打开终端运行下列命令：
 
 ```
-npm install kaite-ui
+npm install kiana-ui
 ```
 
 或
 
 ```
-yarn add kaite-ui
+yarn add kiana-ui
 ```
 
 下一节：[开始使用](#/doc/get-started)

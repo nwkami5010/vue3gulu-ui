@@ -1,4 +1,4 @@
-import "./lib/kaite.scss";
+import "./lib/kiana.scss";
 import "./index.scss";
 import "github-markdown-css";
 

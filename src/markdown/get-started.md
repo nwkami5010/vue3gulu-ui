@@ -1,30 +1,30 @@
 ## 下载与使用
 
-## 引入 `kaite-ui`
+## 引入 `kiana-ui`
 
 #### 完整引入
 
 ```
-    import 'kaite-ui/dist/lib/kaite.css'
+    import 'kiana-ui/dist/lib/kiana.css'
     import { createApp } from 'vue'
     import App from './App.vue'
-    import { kaiteUI } from 'kaite-ui'
+    import { kianaUI } from 'kaite-ui'
 
     createApp(App)
-      .use(kaiteUI)
+      .use(kianaUI)
       .mount('#app')
 ```
 
-> 以上代码便完成了 kaite-ui 的引入。需要注意的是，样式文件需要单独引入。
+> 以上代码便完成了 kiana-ui 的引入。需要注意的是，样式文件需要单独引入。
 
 #### 按需引入
 
 > 如果你只希望引入部分组件，比如 Button ，那么需要在 main.js 中写入以下内容：
 
 ```
-    import 'kaite-ui/dist/lib/kaite.css'
+    import 'kiana-ui/dist/lib/kiana.css'
     import { createApp } from 'vue'
-    import { Button } from 'kaite-ui'
+    import { Button } from 'kiana-ui'
     import App from './App.vue'
 
     createApp(App).use(Button).mount('#app')

@@ -1,10 +1,10 @@
 <template>
   <template v-if="visible">
     <teleport to="body">
-      <div class="kaite-dialog-overlay" @click="onClickOverlay"></div>
-      <div class="kaite-dialog-wrapper">
-        <div class="kaite-dialog">
-          <span class="kaite-dialog-close" @click="close"></span>
+      <div class="kiana-dialog-overlay" @click="onClickOverlay"></div>
+      <div class="kiana-dialog-wrapper">
+        <div class="kiana-dialog">
+          <span class="kiana-dialog-close" @click="close"></span>
           <header v-if="showTitle">
             <h1>{{ title }}</h1>
           </header>
@@ -90,7 +90,7 @@ export default {
 <style lang="scss">
 $radius: 4px;
 $border-color: #d9d9d9;
-.kaite-dialog {
+.kiana-dialog {
   position: relative;
   background: white;
   border-radius: $radius;

@@ -3,7 +3,7 @@
     <div class="topnavAndBanner">
       <Topnav />
       <div class="banner">
-        <h1>kaiteUI</h1>
+        <h1>kianaUI</h1>
         <h2>基于vue3.0的UI框架</h2>
         <p class="actions">
           <a href="https://github.com/kaitehan">github</a>

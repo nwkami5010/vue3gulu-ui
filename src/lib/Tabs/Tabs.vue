@@ -1,8 +1,8 @@
 <template>
-  <div class="kaite-tabs">
-    <div class="kaite-tabs-nav" ref="container">
+  <div class="kiana-tabs">
+    <div class="kiana-tabs-nav" ref="container">
       <div
-        class="kaite-tabs-nav-item"
+        class="kiana-tabs-nav-item"
         v-for="(CNode, index) in CNodes"
         :ref="
           (el) => {
@@ -18,11 +18,11 @@
       >
         {{ CNode.props.title }}
       </div>
-      <div class="kaite-tabs-nav-indicator" ref="indicator"></div>
+      <div class="kiana-tabs-nav-indicator" ref="indicator"></div>
     </div>
-    <div class="kaite-tabs-content">
+    <div class="kiana-tabs-content">
       <component
-        class="kaite-tabs-content-item"
+        class="kiana-tabs-content-item"
         :key="current.props.title"
         :is="current"
       />
@@ -97,7 +97,7 @@ $blue: #40a9ff;
 $color: #333;
 $border-color: #d9d9d9;
 
-.kaite-tabs {
+.kiana-tabs {
   &-nav {
     display: flex;
     color: $color;
@@ -133,7 +133,7 @@ $border-color: #d9d9d9;
   &-content {
     padding: 20px 8px;
   }
-  @keyframes kaite-spin {
+  @keyframes kiana-spin {
     0% {
       transform: rotate(0deg);
     }

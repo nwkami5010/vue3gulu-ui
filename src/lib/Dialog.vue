@@ -2,12 +2,12 @@
 <template>
   <template v-if="visible">
   <Teleport to="body">
-    <div class="gulu-dialog-overlay" @click="onClickOverlay"></div>
-    <div class="gulu-dialog-wrapper">
-      <div class="gulu-dialog">
+    <div class="kiana-dialog-overlay" @click="onClickOverlay"></div>
+    <div class="kiana-dialog-wrapper">
+      <div class="kiana-dialog">
         <header>
           <slot name="title"/>
-          <span @click="close" class="gulu-dialog-close"></span></header>
+          <span @click="close" class="kiana-dialog-close"></span></header>
         <main>
           <slot name="content"/>
         </main>
@@ -18,12 +18,12 @@
       </div>
     </div>
 
-    <div class="gulu-dialog-overlay" @click="onClickOverlay"></div>
-    <div class="gulu-dialog-wrapper">
-      <div class="gulu-dialog">
+    <div class="kiana-dialog-overlay" @click="onClickOverlay"></div>
+    <div class="kiana-dialog-wrapper">
+      <div class="kiana-dialog">
         <header>
           <slot name="title"/>
-          <span @click="close" class="gulu-dialog-close"></span></header>
+          <span @click="close" class="kiana-dialog-close"></span></header>
         <main>
           <slot name="content"/>
         </main>
@@ -91,7 +91,7 @@ export default {
 <style lang="scss">
 $radius: 4px;
 $border-color: #d9d9d9;
-.gulu-dialog {
+.kiana-dialog {
   background: white;
   border-radius: $radius;
   box-shadow: 0 0 3px fade_out(black, 0.5);

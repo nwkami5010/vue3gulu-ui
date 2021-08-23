@@ -1,14 +1,14 @@
 <template>
   <div>
     <button
-      class="kaite-switch"
-      @click="toggle"
-      :class="{ 'kaite-checked': value }"
-      :disabled="loading ? true : disabled"
+        class="kiana-switch"
+        @click="toggle"
+        :class="{ 'kiana-checked': value }"
+        :disabled="loading ? true : disabled"
     >
-      <span><span class="kaite-switch-loading" v-if="loading"></span></span>
-      <p v-if="value" class="kaite-switch-on">on</p>
-      <p v-else class="kaite-switch-off">off</p>
+      <span><span class="kiana-switch-loading" v-if="loading"></span></span>
+      <p v-if="value" class="kiana-switch-on">on</p>
+      <p v-else class="kiana-switch-off">off</p>
     </button>
   </div>
 </template>
@@ -39,7 +39,7 @@ export default {
 <style lang="scss" scoped>
 $h: 22px;
 $h2: $h - 4px;
-.kaite-switch {
+.kiana-switch {
   position: relative;
   display: inline-block;
   width: $h * 2;
@@ -57,7 +57,6 @@ $h2: $h - 4px;
   &[disabled] {
     pointer-events: none;
   }
-
   &:focus {
     box-shadow: 0 0 5px rgba(191, 191, 191, 0.5);
     &:hover {
@@ -74,14 +73,14 @@ $h2: $h - 4px;
     border-radius: $h/2;
     background-color: #fff;
     transition: all 0.25s ease-in-out;
-    > .kaite-switch-loading {
+    > .kiana-switch-loading {
       width: 14px;
       height: 14px;
       display: inline-block;
       // margin-right: 4px;
       border-radius: 8px;
       border-color: lighten(#8486ab, 20%) lighten(#8486ab, 10%) #8486ab
-        transparent;
+      transparent;
       border-style: solid;
       border-width: 2px;
       animation: kaite-spin 1s infinite linear;
@@ -101,7 +100,7 @@ $h2: $h - 4px;
       width: $h + 2px;
     }
   }
-  &.kaite-checked {
+  &.kiana-checked {
     background-color: #1890ff;
     > span {
       left: calc(100% - #{$h2} - 2px);
@@ -115,7 +114,6 @@ $h2: $h - 4px;
         box-shadow: none;
       }
     }
-
     &:active {
       > span {
         width: $h + 2px;
@@ -123,7 +121,7 @@ $h2: $h - 4px;
       }
     }
   }
-  @keyframes kaite-spin {
+  @keyframes kiana-spin {
     0% {
       transform: rotate(0deg);
     }
@@ -131,7 +129,6 @@ $h2: $h - 4px;
       transform: rotate(360deg);
     }
   }
-
   @keyframes button-hover {
     from {
       transform: translateY(0);

@@ -10,7 +10,40 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="" />
+    <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button1.demo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button2.demo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button3.demo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button4.demo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button5.demo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialog1.demo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialog2.demo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Switch1.demo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Switch2.demo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Input.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tab.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/gulu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/kaite.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/kaiteUI.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/openDialog.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/get-started.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/get-started.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/markdown/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Aside.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Aside.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <list id="30e339d1-4a0d-42ad-8aee-e7c235d9923f" name="Revert &quot;重构deploysh，上传github仓库&quot;" comment="Revert &quot;重构deploysh，上传github仓库&quot;&#10;&#10;This reverts commit ae6229e2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +55,8 @@
       <list>
         <option value="SCSS File" />
         <option value="JavaScript File" />
-        <option value="Vue Single File Component" />
         <option value="TypeScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -83,6 +116,7 @@
       <workItem from="1627824627792" duration="2140000" />
       <workItem from="1627868179603" duration="116000" />
       <workItem from="1627868303452" duration="2809000" />
+      <workItem from="1629722517498" duration="1965000" />
     </task>
     <task id="LOCAL-00001" summary="修改了localhost空白的bug">
       <created>1621851080879</created>
@@ -464,10 +498,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="915" y="517" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1627821711881" />
-    <state x="949" y="391" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1627826005000">
+    <state x="949" y="391" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1629723931195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="949" y="391" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627826005000" />
+    <state x="949" y="391" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629723931195" />
     <state x="1310" y="383" key="FileChooserDialogImpl" timestamp="1627722157119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
