@@ -7,7 +7,7 @@ import ButtonDemo from "./components/ButtonPage/ButtonDemo.vue";
 import DialogDemo from "./components/DialogPage/DialogDemo.vue";
 import TabsDemo from "./components/TabsPage/TabsDemo.vue";
 import InputDemo from "./components/Input/InputDemo.vue";
-
+import GridDemo from "./components/GridPage/GridDemo.vue";
 import Intro from "./markdown/intro.md";
 import Install from "./markdown/install.md";
 import Getstarted from "./markdown/get-started.md";
@@ -34,6 +34,7 @@ export const router = createRouter({
         { path: "dialog", component: DialogDemo },
         { path: "tabs", component: TabsDemo },
         { path: "input", component: InputDemo },
+        { path: "grid", component: GridDemo},
       ],
     },
   ],
