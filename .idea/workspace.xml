@@ -12,37 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6e0c73ef-6bd0-4e7b-b694-fa636a4f9a10" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button1.demo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button2.demo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button3.demo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button4.demo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button5.demo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialog1.demo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialog2.demo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DialogDemo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch1.demo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Switch2.demo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SwitchDemo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabsDemo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Input.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Switch.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Switch.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Tab.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/gulu.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/kaite.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/kaiteUI.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/openDialog.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/get-started.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/get-started.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/install.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/install.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/markdown/intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/markdown/intro.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Aside.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Aside.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <list id="30e339d1-4a0d-42ad-8aee-e7c235d9923f" name="Revert &quot;重构deploysh，上传github仓库&quot;" comment="Revert &quot;重构deploysh，上传github仓库&quot;&#10;&#10;This reverts commit ae6229e2" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,8 +31,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="KEEP" />
+    <option name="RESET_MODE" value="SOFT" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1kaP5VRwYFskiGyxY9g2hoTyN2f" />
   <component name="ProjectViewState">
@@ -73,16 +48,23 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/迅雷下载/unique-ui-dev/unique-ui-dev" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/新建草稿文件" value="SCSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workplace\gulu-ui-1\src\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workplace\gulu-ui-1\src\components\GridPage" />
+      <recent name="D:\workplace\gulu-ui-1\src\lib\input" />
+      <recent name="D:\workplace\gulu-ui-1\src\components\SelectPage" />
+      <recent name="D:\workplace\gulu-ui-1\src\lib" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -117,90 +99,17 @@
       <workItem from="1627868179603" duration="116000" />
       <workItem from="1627868303452" duration="2809000" />
       <workItem from="1629722517498" duration="1965000" />
-    </task>
-    <task id="LOCAL-00001" summary="修改了localhost空白的bug">
-      <created>1621851080879</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1621851080879</updated>
-    </task>
-    <task id="LOCAL-00002" summary="修改了localhost空白的bug">
-      <created>1621851100622</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1621851100622</updated>
-    </task>
-    <task id="LOCAL-00003" summary="修改了localhost空白的bug">
-      <created>1621851140412</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1621851140412</updated>
-    </task>
-    <task id="LOCAL-00004" summary="更新了Topnav的样式">
-      <created>1621852473976</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1621852473976</updated>
-    </task>
-    <task id="LOCAL-00005" summary="新建封装了topnav组件">
-      <created>1621852832590</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1621852832590</updated>
-    </task>
-    <task id="LOCAL-00006" summary="实现了aside的逻辑">
-      <created>1621949238160</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1621949238160</updated>
-    </task>
-    <task id="LOCAL-00007" summary="路由间切换">
-      <created>1621951106237</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1621951106237</updated>
-    </task>
-    <task id="LOCAL-00008" summary="hover后右滚">
-      <created>1621998904501</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1621998904501</updated>
-    </task>
-    <task id="LOCAL-00009" summary="点击后切换">
-      <created>1622000716635</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1622000716635</updated>
-    </task>
-    <task id="LOCAL-00010" summary="优化代码">
-      <created>1622031149685</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1622031149685</updated>
-    </task>
-    <task id="LOCAL-00011" summary="完成button组件">
-      <created>1622088790435</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1622088790435</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Dialog支持点击关闭">
-      <created>1622127867980</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1622127867980</updated>
+      <workItem from="1629818652888" duration="47000" />
+      <workItem from="1629860088276" duration="2376000" />
+      <workItem from="1629864997823" duration="19000" />
+      <workItem from="1629865029816" duration="169000" />
+      <workItem from="1629866574834" duration="460000" />
+      <workItem from="1629869670068" duration="614000" />
+      <workItem from="1629875160038" duration="5731000" />
+      <workItem from="1629948808026" duration="7178000" />
+      <workItem from="1629956116538" duration="5332000" />
+      <workItem from="1630029693508" duration="2277000" />
+      <workItem from="1630033845088" duration="14585000" />
     </task>
     <task id="LOCAL-00013" summary="Dialog支持title和自定义content">
       <created>1622128907453</created>
@@ -447,7 +356,105 @@
       <option name="project" value="LOCAL" />
       <updated>1627914070490</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="走马灯组件">
+      <created>1629805520887</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1629805520887</updated>
+    </task>
+    <task id="LOCAL-00049" summary="radio组件">
+      <created>1629812091975</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1629812091975</updated>
+    </task>
+    <task id="LOCAL-00050" summary="feat:comp:grid col &amp; row">
+      <created>1630033250148</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1630033250148</updated>
+    </task>
+    <task id="LOCAL-00051" summary="feat:comp grid row">
+      <created>1630034235131</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1630034235131</updated>
+    </task>
+    <task id="LOCAL-00052" summary="feat: add comp grid row.vue">
+      <created>1630037648209</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1630037648209</updated>
+    </task>
+    <task id="LOCAL-00053" summary="feat: add comp grid router-link">
+      <created>1630045360665</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1630045360665</updated>
+    </task>
+    <task id="LOCAL-00054" summary="feat: add comp grid router-griddemo">
+      <created>1630045596917</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1630045596917</updated>
+    </task>
+    <task id="LOCAL-00055" summary="feat: add comp grid demo">
+      <created>1630046386491</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1630046386491</updated>
+    </task>
+    <task id="LOCAL-00056" summary="feat: add comp grid demo1234">
+      <created>1630049101517</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1630049101517</updated>
+    </task>
+    <task id="LOCAL-00057" summary="fix: comp grid layout=&gt;grid">
+      <created>1630049421018</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1630049421018</updated>
+    </task>
+    <task id="LOCAL-00058" summary="feat: comp grid style">
+      <created>1630049704780</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1630049704781</updated>
+    </task>
+    <task id="LOCAL-00059" summary="feat: comp grid 添加demo">
+      <created>1630057062334</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1630057062334</updated>
+    </task>
+    <task id="LOCAL-00060" summary="feat: comp grid 添加scss">
+      <created>1630057103247</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1630057103247</updated>
+    </task>
+    <task id="LOCAL-00061" summary="feat: comp grid 添加col.vue">
+      <created>1630057140629</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1630057140629</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,20 +473,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="更新切换按钮的样式" />
-    <MESSAGE value="填充文档内容" />
-    <MESSAGE value="引入 github 样式" />
-    <MESSAGE value="支持markdown文件" />
-    <MESSAGE value="优化markdown" />
-    <MESSAGE value="更新 SwitchDemo" />
-    <MESSAGE value="抽离用户需要拷贝的代码" />
-    <MESSAGE value="小优化" />
-    <MESSAGE value="展示源代码并且高亮" />
-    <MESSAGE value="显示 demo 标题" />
-    <MESSAGE value="优化 Demo" />
-    <MESSAGE value="删掉无用代码" />
-    <MESSAGE value="改造 Button Demo" />
-    <MESSAGE value="改造 Dialogdemo和Tabs.demo" />
     <MESSAGE value="优化官网，并将 topnav 的 z-index 调成 20" />
     <MESSAGE value="改回到静态引入" />
     <MESSAGE value="忽略 dist 目录" />
@@ -491,53 +484,67 @@
     <MESSAGE value="移动 svg.js" />
     <MESSAGE value="rollup部署出错前一步" />
     <MESSAGE value="rollup部署出错" />
-    <option name="LAST_COMMIT_MESSAGE" value="rollup部署出错" />
+    <MESSAGE value="走马灯组件" />
+    <MESSAGE value="radio组件" />
+    <MESSAGE value="feat:comp:grid col &amp; row" />
+    <MESSAGE value="feat:comp grid row" />
+    <MESSAGE value="feat: add comp grid row.vue" />
+    <MESSAGE value="feat: add comp grid router-link" />
+    <MESSAGE value="feat: add comp grid router-griddemo" />
+    <MESSAGE value="feat: add comp grid demo" />
+    <MESSAGE value="feat: add comp grid demo1234" />
+    <MESSAGE value="fix: comp grid layout=&gt;grid" />
+    <MESSAGE value="feat: comp grid style" />
+    <MESSAGE value="feat: comp grid 添加demo" />
+    <MESSAGE value="feat: comp grid 添加scss" />
+    <MESSAGE value="feat: comp grid 添加col.vue" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: comp grid 添加col.vue" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="915" y="517" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1627821711881">
+    <state x="915" y="517" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1629813739946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="915" y="517" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1627821711881" />
-    <state x="949" y="391" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1629723931195">
+    <state x="915" y="517" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1629813739946" />
+    <state x="949" y="391" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1629950762232">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="949" y="391" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629723931195" />
-    <state x="1310" y="383" key="FileChooserDialogImpl" timestamp="1627722157119">
+    <state x="949" y="391" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1629950762232" />
+    <state x="1310" y="383" key="FileChooserDialogImpl" timestamp="1629886498332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1310" y="383" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1627722157119" />
+    <state x="1310" y="383" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1629886498332" />
     <state x="1084" y="420" key="Github.ShareDialog" timestamp="1621851290047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1084" y="420" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621851290047" />
-    <state width="1119" height="279" key="GridCell.Tab.0.bottom" timestamp="1627913773620">
+    <state width="1304" height="248" key="GridCell.Tab.0.bottom" timestamp="1629865198407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1119" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1627913773620" />
-    <state width="1119" height="279" key="GridCell.Tab.0.center" timestamp="1627913773620">
+    <state width="1304" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1629865198407" />
+    <state width="1304" height="248" key="GridCell.Tab.0.center" timestamp="1629865198407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1119" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1627913773620" />
-    <state width="1119" height="279" key="GridCell.Tab.0.left" timestamp="1627913773620">
+    <state width="1304" height="248" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1629865198407" />
+    <state width="1304" height="248" key="GridCell.Tab.0.left" timestamp="1629865198406">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1119" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1627913773620" />
-    <state width="1119" height="279" key="GridCell.Tab.0.right" timestamp="1627913773620">
+    <state width="1304" height="248" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1629865198406" />
+    <state width="1304" height="248" key="GridCell.Tab.0.right" timestamp="1629865198407">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1119" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1627913773620" />
+    <state width="1304" height="248" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1629865198407" />
     <state x="800" y="296" key="MultipleFileMergeDialog" timestamp="1627914220437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="800" y="296" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1627914220437" />
-    <state x="0" y="329" key="SettingsEditor" timestamp="1621942871303">
+    <state x="755" y="329" key="SettingsEditor" timestamp="1630034176823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="329" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1621942871303" />
-    <state x="864" y="425" key="Vcs.Push.Dialog.v2" timestamp="1627914197863">
+    <state x="755" y="329" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1630034176823" />
+    <state x="864" y="425" key="Vcs.Push.Dialog.v2" timestamp="1630057142239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="864" y="425" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1627914197863" />
+    <state x="864" y="425" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1630057142239" />
     <state x="1016" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621851132801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -546,9 +553,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1026" y="368" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1627822004132" />
-    <state x="995" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1627822570070">
+    <state x="995" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1630046378351">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="995" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1627822570070" />
+    <state x="995" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1630046378351" />
   </component>
 </project>
