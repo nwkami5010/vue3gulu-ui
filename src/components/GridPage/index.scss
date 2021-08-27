@@ -1,0 +1,26 @@
+.custom-grid {
+  .k-row {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    > div:not(.k-col-row-gutter) {
+      background: rgba(#4e57ef, 0.8);
+      padding: 16px 0;
+      &:nth-child(2n + 1) {
+        background: #cfd7ff;
+      }
+    }
+    & + .k-row {
+      margin-top: 14px;
+    }
+    > .k-col-gutter {
+      > div {
+        background: rgba(#4e57ef, 0.8);
+        padding: 16px 0;
+      }
+    }
+  }
+}
+.custom-grid .k-row > div:not(.k-col-row-gutter):nth-child(2n + 1) {
+  background: #cfd7ff;
+}
