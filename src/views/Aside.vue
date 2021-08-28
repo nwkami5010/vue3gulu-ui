@@ -25,13 +25,16 @@
           <router-link to="/doc/dialog">Dialog 对话框</router-link>
         </li>
         <li>
-          <router-link to="/doc/tabs">Tabs 组件</router-link>
+          <router-link to="/doc/tabs">Tabs 标签页</router-link>
         </li>
         <li>
-          <router-link to="/doc/input">Input 组件</router-link>
+          <router-link to="/doc/input">Input 输入框</router-link>
         </li>
         <li>
           <router-link to="/doc/grid">Grid 栅格</router-link>
+        </li>
+        <li>
+          <router-link to="/doc/radio"> Radio 单选框</router-link>
         </li>
       </ol>
     </aside>
