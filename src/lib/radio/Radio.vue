@@ -28,17 +28,17 @@ export default {
           'k-radio-wrapper',
         {
           'k-radio-diabled': props.disabled,
-          'k-radio-checked': isChecked
+          'k-radio-checked': isChecked()
         }
       ];
     });
-    const isChecked = computed(()=> {
+    const isChecked = ()=> {
       return props.checked === props.value;
-    });
+    };
     const attrs = computed(()=> ({
       name: props.name,
       value: props.value,
-      checked: isChecked,
+      checked: isChecked(),
       disabled: props.disabled
     }));
     const onClick =(e)=> {
