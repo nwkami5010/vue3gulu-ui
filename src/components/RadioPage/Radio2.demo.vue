@@ -4,8 +4,8 @@
 <template>
   <div>
     <Radio v-model:checked="checkedValue" name="fruit" value="apple">apple</Radio>
-    <Radio v-model:checked="checkedValue" name="fruit" value="orange">orange</Radio>
-    <Radio v-model:checked="checkedValue" name="fruit" value="banana">banana</Radio>
+    <Radio v-model:checked="checkedValue" name="fruit" value="orange" >orange</Radio>
+    <Radio v-model:checked="checkedValue" name="fruit" value="banana" disabled>banana</Radio>
   </div>
 </template>
 
