@@ -3,6 +3,7 @@
     class="kiana-button"
     :class="classes"
     :disabled="loading ? true : disabled"
+    v-bind="$attrs"
   >
     <span v-if="loading" class="kiana-loadingIndicator"></span>
     <slot />
@@ -36,7 +37,7 @@ export default {
   },
 
   setup(props) {
-    const { round, size, level } = props;
+    const { round, size, level ,disabled} = props;
     const classes = computed(() => {
       return {
         [`kiana-size-${size}`]: size,
