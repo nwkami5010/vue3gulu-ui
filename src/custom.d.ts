@@ -5,6 +5,7 @@ interface MessageOptions {
   canClose?: boolean,
   close?: () => void,
   displayTime?: number
+  top?:number
 }
 //Loading
 interface LoadingOptions {

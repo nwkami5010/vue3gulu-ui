@@ -21,7 +21,8 @@ export default {
        message:'此信息是通过函数调用',
        canClose: true,
        type: 'error',
-       displayTime: 3
+       displayTime: 300,
+      top:30
      });
     };
     return { open}

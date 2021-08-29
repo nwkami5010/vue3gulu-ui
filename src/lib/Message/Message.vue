@@ -1,6 +1,6 @@
 <template>
   <teleport to="body">
-    <div v-if="messageVisible" class="k-messageWrapper"
+    <div v-if="messageVisible" class="k-messageWrapper" :style=`top:${top}%`
       :class="'k-messsageWrapper-'+type">
 <!--      <Icon :name="'icon-'+type"/>-->
       <span class="k-message">{{message}}</span>
@@ -18,6 +18,9 @@ export default defineComponent({
   props: {
     close: {
       type: Function
+    },
+    top: {
+      type:Number
     },
     message: {
       type: String,
