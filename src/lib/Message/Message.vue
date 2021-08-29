@@ -1,6 +1,6 @@
 <template>
   <teleport to="body">
-    <div v-if="messageVisible" class="k-messageWrapper" :style=`top:${top}%`
+    <div v-if="messageVisible" class="k-messageWrapper" :style="{top:top+'%'}"
       :class="'k-messsageWrapper-'+type">
 <!--      <Icon :name="'icon-'+type"/>-->
       <span class="k-message">{{message}}</span>

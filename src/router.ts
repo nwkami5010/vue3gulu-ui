@@ -9,7 +9,7 @@ import TabsDemo from "./components/TabsPage/TabsDemo.vue";
 import InputDemo from "./components/Input/InputDemo.vue";
 import GridDemo from "./components/GridPage/GridDemo.vue";
 import RadioDemo from "./components/RadioPage/RadioDemo.vue";
-//import MessageDemo from "./components/MessagePage/MessageDemo.vue";
+import MessageDemo from "./components/MessagePage/MessageDemo.vue";
 import Intro from "./markdown/intro.md";
 import Install from "./markdown/install.md";
 import Getstarted from "./markdown/get-started.md";
@@ -38,7 +38,7 @@ export const router = createRouter({
         { path: "input", component: InputDemo },
         { path: "grid", component: GridDemo},
         { path: "radio", component: RadioDemo},
-      // { path: "message", component: MessageDemo},
+        { path: "message", component: MessageDemo},
       ],
     },
   ],

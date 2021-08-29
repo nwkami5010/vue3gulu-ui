@@ -2,18 +2,18 @@
  4种类型
 </demo>
 <template>
-  <Button @click="openInfo">普通</Button>
-  <Button @click="openSuccess">成功</Button>
-  <Button @click="openError">失败</Button>
-  <Button @click="openWarning">提醒</Button>
+  <Button @click="openInfo" level="primary">普通</Button>
+  <Button @click="openSuccess" level="success">成功</Button>
+  <Button @click="openError" level="warning">失败</Button>
+  <Button @click="openWarning" level="error">提醒</Button>
 
 
 </template>
 
 <script lang="ts">
-import Message from "../../lib/Message.vue";
+import Message from "../../lib/Message/Message.vue";
 import Button from "../../lib/Button.vue";
-import {openMessage} from "../../lib/Message";
+import {openMessage} from "../../lib/Message/openMessage"
 
 export default {
   components: {Message, Button},
@@ -50,7 +50,5 @@ export default {
 
 }
 </script>
-
 <style lang="scss" scoped>
-
 </style>

@@ -7,8 +7,10 @@
 <script lang="ts">
 import { defineComponent } from 'vue';
 import Demo from "../Demo.vue";
-import {Message1Demo,Message2Demo} from '../MessagePage';
 
+
+import Message1Demo from '../MessagePage/Message1Demo.vue';
+import Message2Demo from '../MessagePage/Message2.demo.vue';
 
 export default  defineComponent({
   name: "MessageDemo",

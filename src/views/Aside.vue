@@ -36,6 +36,9 @@
         <li>
           <router-link to="/doc/radio"> Radio 单选框</router-link>
         </li>
+        <li>
+          <router-link to="/doc/message"> Message 提醒</router-link>
+        </li>
       </ol>
     </aside>
   </transition>

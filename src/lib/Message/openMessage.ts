@@ -14,6 +14,7 @@ export const openMessage = (options: MessageOptions) => {
   const div = document.createElement('div');
   document.body.appendChild(div);
   const close = () => {
+    // @ts-ignore
     app.unmount(app);
     div.remove();
   };

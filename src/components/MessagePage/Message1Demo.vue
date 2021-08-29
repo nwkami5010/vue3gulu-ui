@@ -8,9 +8,9 @@
 </template>
 
 <script lang="ts">
-import Message from "../../lib/Message.vue";
+import Message from "../../lib/Message/Message.vue";
 import Button from "../../lib/Button.vue";
-import {openMessage} from "../../lib/Message";
+import {openMessage} from "../../lib/Message/openMessage"
 
 export default {
   components: {Message, Button},
@@ -21,8 +21,8 @@ export default {
        message:'此信息是通过函数调用',
        canClose: true,
        type: 'error',
-       displayTime: 300,
-      top:30
+       displayTime: 3,
+      top:10
      });
     };
     return { open}
