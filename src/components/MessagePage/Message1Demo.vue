@@ -3,28 +3,28 @@
 </demo>
 
 <template>
-  <Message message="你收到50w汇款" :canClose="true"></Message>
-  <Button @click="openLoading">打开message</Button>>
+
+  <Button @click="open">打开message</Button>>
 </template>
 
 <script lang="ts">
 import Message from "../../lib/Message.vue";
 import Button from "../../lib/Button.vue";
-import {ref} from "vue";
+import {openMessage} from "../../lib/Message";
 
 export default {
   components: {Message, Button},
   setup(){
-    const loading = ref(false);
-    const openLoading = ()=> {
-      loading.value = true;
-      setTimeout(()=>{
 
-        loading.value = false;
-
-      },2000);
+    const open = ()=> {
+     openMessage({
+       message:'此信息是通过函数调用',
+       canClose: true,
+       type: 'error',
+       displayTime: 3
+     });
     };
-    return { loading,openLoading}
+    return { open}
 
   }
 };

@@ -2,7 +2,7 @@
   <teleport to="body">
     <div v-if="messageVisible" class="k-messageWrapper"
       :class="'k-messsageWrapper-'+type">
-<!--      <Icon name="icon-info"/>-->
+<!--      <Icon :name="'icon-'+type"/>-->
       <span class="k-message">{{message}}</span>
       <span v-if="canClose" class="close" @click="close"></span>
     </div>
@@ -16,6 +16,9 @@ export default defineComponent({
   name:"kMessage",
   //components: {Icon},
   props: {
+    close: {
+      type: Function
+    },
     message: {
       type: String,
       required: true
@@ -31,8 +34,8 @@ export default defineComponent({
   },
   setup() {
     const messageVisible = ref(true);
-    const close = () => {messageVisible.value = false;};
-    return { messageVisible,close }
+
+    return { messageVisible,open}
   }
 })
 </script>
@@ -54,6 +57,51 @@ export default defineComponent({
   align-items: center;
   border-radius: 4px;
 
+  &.k-messageWrapper-error {
+    border-color: $k-type-error-disabled;
+    border-style: solid;
+    border-width: 1px;
+    background: $k-type-error-light;
+    .o-message {
+      color: $k-type-error;
+    }
+    svg {
+      fill: $k-type-error;
+    }
+    .close {
+      color: $k-type-error;
+    }
+  }
+  &.k-messageWrapper-success {
+    border-color: $k-type-success-disabled;
+    border-style: solid;
+    border-width: 1px;
+    background: $k-type-success-light;
+    .o-message {
+      color: $k-type-success;
+    }
+    svg {
+      fill: $k-type-success;
+    }
+    .close {
+      color: $k-type-success;
+    }
+  }
+  &.k-messageWrapper-warning {
+    border-color: $k-type-warning-disabled;
+    border-style: solid;
+    border-width: 1px;
+    background: $k-type-warning-light;
+    .o-message {
+      color: $k-type-warning;
+    }
+    svg {
+      fill: $k-type-warning;
+    }
+    .close {
+      color: $k-type-warning;
+    }
+  }
   svg {
     fill: #999999;
     font-size: 18px;
@@ -67,7 +115,7 @@ export default defineComponent({
     color: #909399;
   }
   .close {
-    color: #909399;
+    color: #C0C4CC;
     cursor: pointer;
 
     &:hover {
