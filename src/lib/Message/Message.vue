@@ -32,7 +32,7 @@ export default defineComponent({
     },
     canClose: {
       type: Boolean,
-      default: false
+      default: true
     }
   },
   setup() {
@@ -52,7 +52,7 @@ export default defineComponent({
   border-color: #EBEEF5;
   position: fixed;
   left: 50%;
-  top: 50%;
+
   transform: translateX(-50%);
   background-color: #edf2fc;
   padding: 15px 15px 15px 20px;

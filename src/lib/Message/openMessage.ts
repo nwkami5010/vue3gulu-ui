@@ -10,7 +10,7 @@ interface MessageOptions {
   top?:number,
 }
 export const openMessage = (options: MessageOptions) => {
-  const {message,type,canClose,displayTime,top =20 } =options;
+  const {message,type,canClose,displayTime=3,top =10 } =options;
   const div = document.createElement('div');
   document.body.appendChild(div);
   const close = () => {
