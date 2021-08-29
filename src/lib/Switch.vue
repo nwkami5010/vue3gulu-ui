@@ -37,7 +37,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$h: 22px;
+$h: 36px;
 $h2: $h - 4px;
 .kiana-switch {
   position: relative;

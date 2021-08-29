@@ -1,5 +1,6 @@
 <template>
-  <label :class="classes" @click="onClick()">
+  <label
+          :class="classes" @click="onClick()">
     <span>
       <input type="radio" class="k-radio" v-bind="attrs"/>
     </span>
@@ -7,17 +8,20 @@
       <slot/>
     </span>
   </label>
+
+
 </template>
 
 <script lang="ts">
-import { computed } from 'vue'
-export default {
+import { computed ,defineComponent} from 'vue'
+export default defineComponent({
   name: 'KRadio',
   props: {
     value: {
       required: true,
       type: [Boolean, String,Number]
     },
+
     checked: [ Boolean,String,Number],
     disabled: Boolean,
     name : String
@@ -25,7 +29,7 @@ export default {
   setup(props,context) {
     const classes = computed(()=>{
       return [
-          'k-radio-wrapper',
+        'k-radio-wrapper',
         {
           'k-radio-diabled': props.disabled,
           'k-radio-checked': isChecked()
@@ -48,7 +52,7 @@ export default {
     };
     return { classes,attrs ,onClick}
   }
-};
+})
 </script>
 
 <style lang="scss" scoped>
@@ -71,8 +75,8 @@ export default {
     }
     &-input {
       position: relative;
-      width: 16px;
-      height: 16px;
+      width: 32px;
+      height: 32px;
       border: 1px solid $border-color;
       border-radius: 50%;
       &:before {
@@ -80,8 +84,8 @@ export default {
         position: absolute;
         top: 50%;
         left: 50%;
-        width: 8px;
-        height: 8px;
+        width: 16px;
+        height: 16px;
         transform: translate(-50%,-50%);
         border-radius: 50%;
       }
