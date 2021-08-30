@@ -5,17 +5,29 @@
 </template>
 
 <script lang="ts">
-import { defineComponent,onMounted,ref,watchEffect } from 'vue';
+import { defineComponent,provide } from 'vue';
+import mitt from 'mitt';
+export const emitter = mitt();
 export default defineComponent({
   name: "Collapse",
   props: {
       activeName: {
-        type: String
+        type: Array
       }
   },
   setup(props,context){
-    const defaults = context.slots.default()
-    return {defaults};
+    emitter.on('itemClick', newActiveName =>{
+      const index = props.activeName.findIndex(item => item === newActiveName);
+      const propsActiveName = Array.from(props.activeName);
+      if(index > -1 ) {
+        propsActiveName.splice(index,1);
+        context.emit('update: activeName',propsActiveName);
+      } else {
+        context.emit('update:activeName',[...propsActiveName,newActiveName]);
+      }
+    });
+    provide('collapse',props);
+    return {};
   }
 });
 </script>

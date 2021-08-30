@@ -5,12 +5,14 @@
   <div>
     <Collapse v-model:activeName="activeName">
       <CollapseItem name="1">
-        <template #heading>标题1</template>
-        <template #body>士官是星界军指挥结构中的军士阶层。他们被指派作为每个班的领袖，并负责协调班组在每个帝国卫队团的每个排中进行日常训练和其他团队行动 作者：帝皇毒刃不屈要塞号 https://www.bilibili.com/read/cv12286748?from=search 出处：bilibili。</template>
+        <template #header>常见的士官阶级 </template>
+        <template #body>士官&老兵士官：指挥一个星界军步兵班组（最低的组织架构） </template>
       </CollapseItem>
       <CollapseItem name="2">
-        <template #heading>标题2</template>
-        <template #body>内容2....</template>
+        <template #header>卫兵最好的老大哥——士官</template>
+        <template #body>
+          <div>士官都是是受人尊敬的军官，他们在帝国卫队中担任许多领导职务。作为帝国卫队的中坚力量，士官们负责每个班的领导工作，部队的大部分日常运作都落在他们能干的肩上。 </div>
+          <div>士官是星界军指挥结构中的军士阶层。他们被指派作为每个班的领袖，并负责协调班组在每个帝国卫队团的每个排中进行日常训练和其他团队行动。</div></template>
       </CollapseItem>
 
     </Collapse>
@@ -25,7 +27,7 @@ import {ref} from "vue";
 export default {
   components: {Collapse,CollapseItem},
   setup() {
-    const activeName = ref('1');
+    const activeName = ref(['1']);
     return { activeName}
   }
 };

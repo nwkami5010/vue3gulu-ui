@@ -2,7 +2,7 @@
   <div class="k-collapse-item" :classs="{isActive:isActive}">
     <div class="k-collapse-item-header" @click="headerClickHandle">
       <slot name="header"></slot>
-      <Icon :class="{isActive:isActive}" name="icon-menuright"/>
+      <Icon  name="icon-menuright"/>
     </div>
     <div v-show="isActive" class="k=collapse-item-body">
       <slot name="body"></slot>
@@ -11,8 +11,9 @@
 </template>
 
 <script lang="ts">
-import {defineComponent,ref,onMounted} from 'vue';
+import {defineComponent,ref,computed,inject} from 'vue';
 //import Icon from "./Icon.vue";
+import { emitter }from './Collapse.vue';
 export default defineComponent({
   name: "CollapseItem",
   components: {},
@@ -24,21 +25,24 @@ export default defineComponent({
     name: {
       type:String,
       required:true
+    },
+    disabled: {
+      type: Boolean,
+      required: false
     }
   },
   inject:['collapse'],
   setup(props,context) {
-    const isActive = ref(false);
-    const click = ()=> {
-      context.emit('itemClick',context);
-    };
-    const setActive = ()=> isActive.value = true;
+    const isActive = computed(() => {
+      return inject('collapse').activeName.findIndex(item=> item=== props.name) >=0
+    }) ;
+
     const headerClickHandle =()=> {
-      this.dispatch('ElCollapse','item-click',this);
+      emitter.emit('itemClick',props.name);
     }
 
 
-    return {isActive,click, setActive,headerClickHandle};
+    return {isActive,headerClickHandle};
   }
 });
 </script>
@@ -83,6 +87,16 @@ export default defineComponent({
     font-size: 13px;
     color: #303133;
     line-height: 2;
+  }
+  &.isActive {
+
+    .k-collapse-item-header {
+      border-bottom-color: transparent;
+
+      svg {
+        transform: rotate(90deg);
+      }
+    }
   }
 }
 </style>
