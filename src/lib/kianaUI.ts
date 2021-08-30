@@ -7,6 +7,7 @@ import Tab from "./Tabs/Tab.vue";
 import Row  from "./Grid/Row.vue";
 import Col from "./Grid/Col.vue";
 import Radio from "./radio/Radio.vue";
+import Message from './Message/Message.vue';
 import { ComponentOptions } from "vue";
 
 export default {
@@ -21,5 +22,7 @@ export default {
     app.component("Row",Row );
     app.component("Col",Col);
     app.component("Radio",Radio);
+    app.component("Message",Message);
+    app.component("")
   },
 };
