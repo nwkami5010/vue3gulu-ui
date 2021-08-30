@@ -1,14 +1,15 @@
+<demo>
+常规用法
+</demo>
 <template>
-
+  <Collapse/>
 </template>
 
 <script lang="ts">
-
-export default{
-
-}
+import Collapse from "../../lib/Collapse.vue";
+export default {
+  components: {Collapse},
+  setup() {
+  }
+};
 </script>
-
-<style lang="scss" scoped>
-
-</style>
