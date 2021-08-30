@@ -1,5 +1,5 @@
 <template>
-<div class="k=collapse">
+<div class="k-collapse">
   <slot></slot>
 </div>
 </template>
@@ -22,8 +22,8 @@ export default defineComponent({
   setup(props,context){
     const internalInstance = getCurrentInstance();
 
-    emitter.on('itemClick', val =>{
-      const { newActiveName,uid } = val;
+    emitter.on('itemClick', val => {
+      const { newActiveName, uid } = val;
       if(internalInstance.uid !== uid ) {
         return;
       }
@@ -31,14 +31,14 @@ export default defineComponent({
       //props.activeName是个代理对象，不是数组
       const propsActiveName = Array.from(props.activeName);
       if(props.accordion ) {
-        index > -1 ? context.emit('update:activeName',[]) : context.emit('update:activeName',[newActiveName])
+        index > -1 ? context.emit('update:activeName', []) : context.emit('update:activeName', [newActiveName]);
 
       } else {
         if (index > -1) {
           propsActiveName.splice(index, 1);
-          context.emit('update:activeName',propsActiveName);
-        }else{
-          context.emit('update:activeName',[...propsActiveName,newActiveName]);
+          context.emit('update:activeName', propsActiveName);
+        } else {
+          context.emit('update:activeName', [...propsActiveName, newActiveName]);
         }
 
       }

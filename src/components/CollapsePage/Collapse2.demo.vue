@@ -29,6 +29,7 @@
 import CollapseItem from "../../lib/Collapse/CollapseItem.vue";
 import Collapse from "../../lib/Collapse/Collapse.vue";
 import {ref} from "vue";
+
 export default {
   components: {Collapse, CollapseItem},
   setup() {

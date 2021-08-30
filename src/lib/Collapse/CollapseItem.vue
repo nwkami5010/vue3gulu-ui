@@ -1,6 +1,6 @@
 <template>
   <div class="k-collapse-item" :classs="{isActive}">
-    <div class="k-collapse-item-header" :class="{disabled}" @click="headerClickHandle">
+    <div class="k-collapse-item-header" :class="{disabled}" @click="handleHeaderClick">
       <slot name="header"></slot>
       <Icon  name="icon-menuright"/>
     </div>
@@ -9,9 +9,7 @@
         <slot name="body"></slot>
       </div>
     </transition>
-    <div v-show="isActive" class="k=collapse-item-body">
-      <slot name="body"></slot>
-    </div>
+
   </div>
 </template>
 
@@ -19,6 +17,8 @@
 import {defineComponent,computed,inject,getCurrentInstance} from 'vue';
 //import Icon from "./Icon.vue";
 import { emitter }from './Collapse.vue';
+
+
 export default defineComponent({
   name: "CollapseItem",
   components: {},
@@ -43,14 +43,14 @@ export default defineComponent({
       return inject('collapse').activeName.findIndex(item=> item=== props.name) >=0
     }) ;
 
-    const headerClickHandle =()=> {
+    const handleHeaderClick =()=> {
 
       emitter.emit('itemClick', {newActiveName:
       props.name,uid:internalInstance.parent.uid});
     }
 
 
-    return {isActive,headerClickHandle};
+    return {isActive,handleHeaderClick};
   }
 });
 </script>

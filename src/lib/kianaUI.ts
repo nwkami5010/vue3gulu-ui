@@ -7,14 +7,12 @@ import Tab from "./Tabs/Tab.vue";
 import Row  from "./Grid/Row.vue";
 import Col from "./Grid/Col.vue";
 import Radio from "./radio/Radio.vue";
-import Message from './Message/Message.vue';
-import Collapse from './Collapse/Collapse.vue';
 import { ComponentOptions } from "vue";
 
 export default {
   install: (app: ComponentOptions) => {
     // Plugin code goes here
-    app.component("Switch", Switch);
+
     app.component("Input", Input);
     app.component("Button", Button);
     app.component("Dialog", Dialog);
@@ -23,7 +21,5 @@ export default {
     app.component("Row",Row );
     app.component("Col",Col);
     app.component("Radio",Radio);
-    app.component("Message",Message);
-    app.component("Collapse",Collapse);
   },
 };
