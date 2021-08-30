@@ -9,4 +9,5 @@ export { openDialog as openDialog } from "./Dialog/openDialog";
 export { default as Col } from "./Grid/Col.vue";
 export { default as Row } from "./Grid/Row.vue";
 export { default as Radio } from "./radio/Radio.vue";
+export { default as Message} from "./Collapse/Collapse.vue";
 export { default as kianaUI } from "./kianaUI";
