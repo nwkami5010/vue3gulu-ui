@@ -52,6 +52,7 @@ $deepbgc: #44295b;
 $text: #6f2e6a;
 .topnav {
   position: fixed;
+  text-decoration: none;
   top: 0;
   left: 0;
   width: 100%;
@@ -66,6 +67,7 @@ $text: #6f2e6a;
   > .logo {
     max-width: 6em;
     margin-right: auto;
+    text-decoration: none;
     > a {
       text-decoration: none;
       svg {

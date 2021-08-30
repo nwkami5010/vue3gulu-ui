@@ -13,7 +13,7 @@
           <router-link to="/doc/get-started">开始使用</router-link>
         </li>
       </ol>
-      <h2>组件列表</h2>
+      <h2>基础组件</h2>
       <ol>
         <li>
           <router-link to="/doc/switch">Switch 开关</router-link>
@@ -40,6 +40,7 @@
           <router-link to="/doc/message"> Message 提醒</router-link>
         </li>
       </ol>
+
     </aside>
   </transition>
 </template>
