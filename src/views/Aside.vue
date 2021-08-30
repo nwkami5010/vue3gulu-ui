@@ -39,6 +39,9 @@
         <li>
           <router-link to="/doc/message"> Message 提醒</router-link>
         </li>
+        <li>
+          <router-link to="/doc/collapse"> collapse 手风琴</router-link>
+        </li>
       </ol>
 
     </aside>

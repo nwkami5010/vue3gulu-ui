@@ -7,8 +7,8 @@
 import {defineComponent} from 'vue';
 import Demo from "../Demo.vue";
 
-import Collapse1Demo from '../CollapsePage/Collapse1.demo';
-export default({
+import Collapse1Demo from './Collapse1.demo.vue';
+export default defineComponent({
   name:"CollapseDemo",
   components: {Demo},
   setup(){
