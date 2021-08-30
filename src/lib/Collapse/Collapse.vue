@@ -13,17 +13,26 @@ export default defineComponent({
   props: {
       activeName: {
         type: Array
-      }
+      },
+    accordion: {
+        type: Boolean,
+        default: false
+    }
   },
   setup(props,context){
     emitter.on('itemClick', newActiveName =>{
       const index = props.activeName.findIndex(item => item === newActiveName);
       const propsActiveName = Array.from(props.activeName);
-      if(index > -1 ) {
-        propsActiveName.splice(index,1);
-        context.emit('update: activeName',propsActiveName);
+      if(props.accordion ) {
+        context.emit('update:activeName')
       } else {
-        context.emit('update:activeName',[...propsActiveName,newActiveName]);
+        if (index > -1) {
+          propsActiveName.splice(index, 1);
+          context.emit('update:activeName',propsActiveName);
+        }else{
+          context.emit('update:activeName',[...propsActiveName,newActiveName]);
+        }
+
       }
     });
     provide('collapse',props);

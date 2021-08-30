@@ -3,7 +3,8 @@
 </demo>
 <template>
   <div>
-    <Collapse v-model:activeName="activeName">
+    <Collapse v-model:activeName="activeName"
+    :accordion="true">
       <CollapseItem name="1">
         <template #header>常见的士官阶级 </template>
         <template #body>士官&老兵士官：指挥一个星界军步兵班组（最低的组织架构） </template>
