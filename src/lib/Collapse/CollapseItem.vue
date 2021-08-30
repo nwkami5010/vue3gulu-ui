@@ -11,7 +11,7 @@
 </template>
 
 <script lang="ts">
-import {defineComponent,ref,computed,inject} from 'vue';
+import {defineComponent,ref,computed,inject,getCurrentInstance} from 'vue';
 //import Icon from "./Icon.vue";
 import { emitter }from './Collapse.vue';
 export default defineComponent({
@@ -33,15 +33,15 @@ export default defineComponent({
   },
   inject:['collapse'],
   setup(props,context) {
+    const internalInstance = getCurrentInstance();
     const isActive = computed(() => {
       return inject('collapse').activeName.findIndex(item=> item=== props.name) >=0
     }) ;
 
     const headerClickHandle =()=> {
-      if(props.disabled){
-        return;
-      }
-      emitter.emit('itemClick',props.name);
+
+      emitter.emit('itemClick', {newActiveName:
+      props.name,uid:internalInstance.parent.uid});
     }
 
 
@@ -64,7 +64,7 @@ export default defineComponent({
     cursor: pointer;//设定鼠标为游标指针
     border-bottom: 1px solid #ebeef5;
     font-size: 13px;
-    font-weight: 600;
+    font-weight:500;
     transition: border-bottom-color .3s;
     outline: none;
     &.disabled {

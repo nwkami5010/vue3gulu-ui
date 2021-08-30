@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent,provide } from 'vue';
+import { defineComponent,provide ,getCurrentInstance} from 'vue';
 import mitt from 'mitt';
 export const emitter = mitt();
 export default defineComponent({
@@ -20,7 +20,13 @@ export default defineComponent({
     }
   },
   setup(props,context){
-    emitter.on('itemClick', newActiveName =>{
+    const internalInstance = getCurrentInstance();
+
+    emitter.on('itemClick', val =>{
+      const { newActiveName,uid } = val;
+      if(internalInstance.uid !== uid ) {
+        return;
+      }
       const index = props.activeName.findIndex(item => item === newActiveName);
       //props.activeName是个代理对象，不是数组
       const propsActiveName = Array.from(props.activeName);
