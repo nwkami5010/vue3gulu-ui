@@ -3,13 +3,12 @@
 </demo>
 <template>
   <div>
-    <Collapse v-model:activeName="activeName"
-    :accordion="true">
+    <Collapse v-model:activeName="activeName">
       <CollapseItem name="1">
         <template #header>常见的士官阶级 </template>
         <template #body>士官&老兵士官：指挥一个星界军步兵班组（最低的组织架构） </template>
       </CollapseItem>
-      <CollapseItem name="2">
+      <CollapseItem name="2" :disabled="true">
         <template #header>卫兵最好的老大哥——士官</template>
         <template #body>
           <div>士官都是是受人尊敬的军官，他们在帝国卫队中担任许多领导职务。作为帝国卫队的中坚力量，士官们负责每个班的领导工作，部队的大部分日常运作都落在他们能干的肩上。 </div>

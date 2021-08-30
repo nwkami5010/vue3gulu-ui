@@ -1,6 +1,6 @@
 <template>
-  <div class="k-collapse-item" :classs="{isActive:isActive}">
-    <div class="k-collapse-item-header" @click="headerClickHandle">
+  <div class="k-collapse-item" :classs="{isActive}">
+    <div class="k-collapse-item-header" :class="{disabled}" @click="headerClickHandle">
       <slot name="header"></slot>
       <Icon  name="icon-menuright"/>
     </div>
@@ -38,6 +38,9 @@ export default defineComponent({
     }) ;
 
     const headerClickHandle =()=> {
+      if(props.disabled){
+        return;
+      }
       emitter.emit('itemClick',props.name);
     }
 
@@ -61,10 +64,17 @@ export default defineComponent({
     cursor: pointer;//设定鼠标为游标指针
     border-bottom: 1px solid #ebeef5;
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 600;
     transition: border-bottom-color .3s;
     outline: none;
+    &.disabled {
+      cursor:not-allowed;
+      color: rgba(0,0,0,.25);
 
+      svg{
+        fill:rgba(0,0,0,.25);
+      }
+    }
     &.isActive {
       border-bottom-color: transparent;
     }

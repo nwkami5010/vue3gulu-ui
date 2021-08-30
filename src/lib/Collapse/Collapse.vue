@@ -22,6 +22,7 @@ export default defineComponent({
   setup(props,context){
     emitter.on('itemClick', newActiveName =>{
       const index = props.activeName.findIndex(item => item === newActiveName);
+      //props.activeName是个代理对象，不是数组
       const propsActiveName = Array.from(props.activeName);
       if(props.accordion ) {
         context.emit('update:activeName')
