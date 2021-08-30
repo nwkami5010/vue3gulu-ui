@@ -4,6 +4,11 @@
       <slot name="header"></slot>
       <Icon  name="icon-menuright"/>
     </div>
+    <transition name="slide-fade">
+      <div v-show="isActive" class="k-collapse-item-body">
+        <slot name="body"></slot>
+      </div>
+    </transition>
     <div v-show="isActive" class="k=collapse-item-body">
       <slot name="body"></slot>
     </div>
@@ -11,7 +16,7 @@
 </template>
 
 <script lang="ts">
-import {defineComponent,ref,computed,inject,getCurrentInstance} from 'vue';
+import {defineComponent,computed,inject,getCurrentInstance} from 'vue';
 //import Icon from "./Icon.vue";
 import { emitter }from './Collapse.vue';
 export default defineComponent({
@@ -32,7 +37,7 @@ export default defineComponent({
     }
   },
   inject:['collapse'],
-  setup(props,context) {
+  setup(props) {
     const internalInstance = getCurrentInstance();
     const isActive = computed(() => {
       return inject('collapse').activeName.findIndex(item=> item=== props.name) >=0
@@ -53,6 +58,23 @@ export default defineComponent({
 <style lang="scss" scoped>
 @import "./src/style/_var.scss";
 
+.slide-fade-enter-active {
+  transition: all 0.3s ease-out;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.3s ease-out;
+}
+
+.slide-fade-enter-from {
+  transform: translateY(-20px);
+  opacity: 0;
+}
+
+.slide-fade-leave-to {
+  transform: translateY(-20px);
+  opacity: 0;
+}
 .k-collapse-item {
   .k-collapse-item-header {
     display: flex;

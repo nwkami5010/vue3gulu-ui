@@ -31,7 +31,8 @@ export default defineComponent({
       //props.activeName是个代理对象，不是数组
       const propsActiveName = Array.from(props.activeName);
       if(props.accordion ) {
-        context.emit('update:activeName')
+        index > -1 ? context.emit('update:activeName',[]) : context.emit('update:activeName',[newActiveName])
+
       } else {
         if (index > -1) {
           propsActiveName.splice(index, 1);
