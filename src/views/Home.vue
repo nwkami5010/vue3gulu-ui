@@ -6,7 +6,7 @@
         <h1>kianaUI</h1>
         <h2>基于vue3.0的UI框架</h2>
         <p class="actions">
-          <a href="https://github.com/kaitehan">github</a>
+          <a href="https://github.com/nwkami5010">github</a>
           <router-link to="/doc">开始</router-link>
         </p>
       </div>

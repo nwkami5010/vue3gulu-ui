@@ -15,44 +15,33 @@
       </ol>
       <h2>基础组件</h2>
       <ol>
+        <li v-for="(item,index) in list1" :key="index">
+          <router-link active-class='active' :to="item.url">{{item.name}}</router-link>
         <li>
-          <router-link to="/doc/switch">Switch 开关</router-link>
-        </li>
-        <li>
-          <router-link to="/doc/button">Button 按钮</router-link>
-        </li>
-        <li>
-          <router-link to="/doc/dialog">Dialog 对话框</router-link>
-        </li>
-        <li>
-          <router-link to="/doc/tabs">Tabs 标签页</router-link>
-        </li>
-        <li>
-          <router-link to="/doc/input">Input 输入框</router-link>
-        </li>
-        <li>
-          <router-link to="/doc/grid">Grid 栅格</router-link>
-        </li>
-        <li>
-          <router-link to="/doc/radio"> Radio 单选框</router-link>
-        </li>
-        <li>
-          <router-link to="/doc/message"> Message 提醒</router-link>
-        </li>
-        <li>
-          <router-link to="/doc/collapse"> collapse 手风琴</router-link>
-        </li>
+
+
       </ol>
 
     </aside>
   </transition>
 </template>
 <script lang="ts">
-import { inject, Ref } from "vue";
+import { inject, Ref,reactive } from "vue";
 export default {
   setup() {
     const menuVisible = inject<Ref<boolean>>("menuVisible");
-    return { menuVisible };
+    const list1 =reactive([
+      { url: "/doc/switch", name: "Switch 开关" },
+      { url: "/doc/button", name: "Button 按钮" },
+      { url: "/doc/dialog", name: "Dialog 对话框" },
+      { url: "/doc/tabs", name: "Tab 标签页" },
+      { url: "/doc/input", name: "input 输入框" },
+      { url: "/doc/grid", name: "Grid 栅格"},
+      { url: "/doc/radio", name: "Radio  单选框"},
+      { url: "/doc/message", name: "Message 提醒"},
+      { url: "/doc/collapse", name: "collapse 折叠面板"},
+    ])
+    return { menuVisible ,list1};
   },
 };
 </script>
