@@ -17,7 +17,7 @@
       <ol>
         <li v-for="(item,index) in list1" :key="index">
           <router-link active-class='active' :to="item.url">{{item.name}}</router-link>
-        <li>
+        </li>
 
 
       </ol>
