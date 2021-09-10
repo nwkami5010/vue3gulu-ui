@@ -75,8 +75,8 @@ export default defineComponent({
     }
     &-input {
       position: relative;
-      width: 32px;
-      height: 32px;
+      width: 16px;
+      height: 16px;
       border: 1px solid $border-color;
       border-radius: 50%;
       &:before {
@@ -94,7 +94,7 @@ export default defineComponent({
       #{component(radio)}{
         &-input {
           &:before {
-            background: darken($grey,50%);
+            background: darken($gray,50%);
           }
         }
       }

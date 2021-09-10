@@ -37,7 +37,7 @@ export default {
       { url: "/doc/tabs", name: "Tab 标签页" },
       { url: "/doc/input", name: "input 输入框" },
 
-      { url: "/doc/radio", name: "Radio  单选框"},
+     // { url: "/doc/radio", name: "Radio  单选框"},
       { url: "/doc/message", name: "Message 提醒"},
       { url: "/doc/collapse", name: "collapse 折叠面板"},
     ])
